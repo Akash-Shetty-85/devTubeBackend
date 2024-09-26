@@ -2,8 +2,8 @@ class ApiResponse {
     constructor(
         statuscode,
         data,
-        message ="success"
-    ){ 
+        message = "success"
+    ) {
         super(message)
         this.statuscode = statuscode
         this.data = data
@@ -13,4 +13,4 @@ class ApiResponse {
     }
 }
 
-export {ApiResponse}
+export { ApiResponse }
